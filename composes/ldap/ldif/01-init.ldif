@@ -1,0 +1,334 @@
+dn: dc=company,dc=org
+objectClass: top
+objectClass: domain
+dc: company
+
+dn: ou=Octopus,dc=company,dc=org
+objectClass: organizationalUnit
+ou: Octopus
+
+dn: ou=users,ou=Octopus,dc=company,dc=org
+objectClass: organizationalUnit
+ou: users
+
+dn: ou=groups,ou=Octopus,dc=company,dc=org
+objectClass: organizationalUnit
+ou: groups
+
+############################
+# Users (30)
+############################
+
+dn: uid=jdoe,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: John Doe
+sn: Doe
+uid: jdoe
+mail: john.doe@company.org
+userPassword: password
+
+dn: uid=asmith,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Alice Smith
+sn: Smith
+uid: asmith
+mail: alice.smith@company.org
+userPassword: password
+
+dn: uid=bjohnson,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Brian Johnson
+sn: Johnson
+uid: bjohnson
+mail: brian.johnson@company.org
+userPassword: password
+
+dn: uid=cmiller,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Carol Miller
+sn: Miller
+uid: cmiller
+mail: carol.miller@company.org
+userPassword: password
+
+dn: uid=dwilson,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: David Wilson
+sn: Wilson
+uid: dwilson
+mail: david.wilson@company.org
+userPassword: password
+
+dn: uid=egarcia,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Elena Garcia
+sn: Garcia
+uid: egarcia
+mail: elena.garcia@company.org
+userPassword: password
+
+dn: uid=fmartin,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Frank Martin
+sn: Martin
+uid: fmartin
+mail: frank.martin@company.org
+userPassword: password
+
+dn: uid=glopez,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Grace Lopez
+sn: Lopez
+uid: glopez
+mail: grace.lopez@company.org
+userPassword: password
+
+dn: uid=hnguyen,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Henry Nguyen
+sn: Nguyen
+uid: hnguyen
+mail: henry.nguyen@company.org
+userPassword: password
+
+dn: uid=ikim,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Irene Kim
+sn: Kim
+uid: ikim
+mail: irene.kim@company.org
+userPassword: password
+
+dn: uid=jclark,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: James Clark
+sn: Clark
+uid: jclark
+mail: james.clark@company.org
+userPassword: password
+
+dn: uid=kroberts,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Karen Roberts
+sn: Roberts
+uid: kroberts
+mail: karen.roberts@company.org
+userPassword: password
+
+dn: uid=lwong,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Leo Wong
+sn: Wong
+uid: lwong
+mail: leo.wong@company.org
+userPassword: password
+
+dn: uid=mmurphy,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Megan Murphy
+sn: Murphy
+uid: mmurphy
+mail: megan.murphy@company.org
+userPassword: password
+
+dn: uid=npatel,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Nikhil Patel
+sn: Patel
+uid: npatel
+mail: nikhil.patel@company.org
+userPassword: password
+
+dn: uid=oconnor,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Olivia OConnor
+sn: OConnor
+uid: oconnor
+mail: olivia.oconnor@company.org
+userPassword: password
+
+dn: uid=pbrown,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Peter Brown
+sn: Brown
+uid: pbrown
+mail: peter.brown@company.org
+userPassword: password
+
+dn: uid=qadams,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Quentin Adams
+sn: Adams
+uid: qadams
+mail: quentin.adams@company.org
+userPassword: password
+
+dn: uid=rthomas,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Rachel Thomas
+sn: Thomas
+uid: rthomas
+mail: rachel.thomas@company.org
+userPassword: password
+
+dn: uid=sscott,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Samuel Scott
+sn: Scott
+uid: sscott
+mail: samuel.scott@company.org
+userPassword: password
+
+dn: uid=ttaylor,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Tina Taylor
+sn: Taylor
+uid: ttaylor
+mail: tina.taylor@company.org
+userPassword: password
+
+dn: uid=umorris,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Umar Morris
+sn: Morris
+uid: umorris
+mail: umar.morris@company.org
+userPassword: password
+
+dn: uid=vlee,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Vivian Lee
+sn: Lee
+uid: vlee
+mail: vivian.lee@company.org
+userPassword: password
+
+dn: uid=wallen,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: William Allen
+sn: Allen
+uid: wallen
+mail: william.allen@company.org
+userPassword: password
+
+dn: uid=xzhao,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Xiaoyu Zhao
+sn: Zhao
+uid: xzhao
+mail: xiaoyu.zhao@company.org
+userPassword: password
+
+dn: uid=ycooper,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Yvonne Cooper
+sn: Cooper
+uid: ycooper
+mail: yvonne.cooper@company.org
+userPassword: password
+
+dn: uid=zreed,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Zachary Reed
+sn: Reed
+uid: zreed
+mail: zachary.reed@company.org
+userPassword: password
+
+dn: uid=abaker,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Amy Baker
+sn: Baker
+uid: abaker
+mail: amy.baker@company.org
+userPassword: password
+
+dn: uid=bcollins,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Ben Collins
+sn: Collins
+uid: bcollins
+mail: ben.collins@company.org
+userPassword: password
+
+dn: uid=dharris,ou=users,ou=Octopus,dc=company,dc=org
+objectClass: inetOrgPerson
+cn: Daniel Harris
+sn: Harris
+uid: dharris
+mail: daniel.harris@company.org
+userPassword: password
+
+############################
+# Groups (10 × 3 users)
+############################
+
+dn: cn=Engineering,ou=groups,ou=Octopus,dc=company,dc=org
+objectClass: groupOfNames
+cn: Engineering
+member: uid=jdoe,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=asmith,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=bjohnson,ou=users,ou=Octopus,dc=company,dc=org
+
+dn: cn=ITSupport,ou=groups,ou=Octopus,dc=company,dc=org
+objectClass: groupOfNames
+cn: ITSupport
+member: uid=cmiller,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=dwilson,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=egarcia,ou=users,ou=Octopus,dc=company,dc=org
+
+dn: cn=HR,ou=groups,ou=Octopus,dc=company,dc=org
+objectClass: groupOfNames
+cn: HR
+member: uid=fmartin,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=glopez,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=hnguyen,ou=users,ou=Octopus,dc=company,dc=org
+
+dn: cn=Finance,ou=groups,ou=Octopus,dc=company,dc=org
+objectClass: groupOfNames
+cn: Finance
+member: uid=ikim,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=jclark,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=kroberts,ou=users,ou=Octopus,dc=company,dc=org
+
+dn: cn=Marketing,ou=groups,ou=Octopus,dc=company,dc=org
+objectClass: groupOfNames
+cn: Marketing
+member: uid=lwong,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=mmurphy,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=npatel,ou=users,ou=Octopus,dc=company,dc=org
+
+dn: cn=Sales,ou=groups,ou=Octopus,dc=company,dc=org
+objectClass: groupOfNames
+cn: Sales
+member: uid=oconnor,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=pbrown,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=qadams,ou=users,ou=Octopus,dc=company,dc=org
+
+dn: cn=Product,ou=groups,ou=Octopus,dc=company,dc=org
+objectClass: groupOfNames
+cn: Product
+member: uid=rthomas,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=sscott,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=ttaylor,ou=users,ou=Octopus,dc=company,dc=org
+
+dn: cn=Operations,ou=groups,ou=Octopus,dc=company,dc=org
+objectClass: groupOfNames
+cn: Operations
+member: uid=umorris,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=vlee,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=wallen,ou=users,ou=Octopus,dc=company,dc=org
+
+dn: cn=QA,ou=groups,ou=Octopus,dc=company,dc=org
+objectClass: groupOfNames
+cn: QA
+member: uid=xzhao,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=ycooper,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=zreed,ou=users,ou=Octopus,dc=company,dc=org
+
+dn: cn=Management,ou=groups,ou=Octopus,dc=company,dc=org
+objectClass: groupOfNames
+cn: Management
+member: uid=abaker,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=bcollins,ou=users,ou=Octopus,dc=company,dc=org
+member: uid=dharris,ou=users,ou=Octopus,dc=company,dc=org
