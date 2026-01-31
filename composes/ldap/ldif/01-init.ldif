@@ -1,7 +1,3 @@
-dn: dc=company,dc=org
-objectClass: top
-objectClass: domain
-dc: company
 
 dn: ou=Octopus,dc=company,dc=org
 objectClass: organizationalUnit

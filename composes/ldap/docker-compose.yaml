@@ -5,7 +5,7 @@ services:
     hostname:       ldap
     environment:
       LDAP_ORGANISATION:   "Octopus"
-      LDAP_DOMAIN:         "comany.org"
+      LDAP_DOMAIN:         "company.org"
       LDAP_ADMIN_PASSWORD: "admin"
     volumes:
       - ./ldif:/container/service/slapd/assets/config/bootstrap/ldif/custom
